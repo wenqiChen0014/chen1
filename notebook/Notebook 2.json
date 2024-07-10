@@ -1,0 +1,83 @@
+{
+	"name": "Notebook 2",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "spark34",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "56g",
+			"driverCores": 8,
+			"executorMemory": "56g",
+			"executorCores": 8,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "e95ec443-3886-4abd-94db-12db8fc18d6e"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1"
+			},
+			"enableDebugMode": false,
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/58f8824d-32b0-4825-9825-02fa6a801546/resourceGroups/Test_Accessibility/providers/Microsoft.Synapse/workspaces/accessibilitytest5/bigDataPools/spark34",
+				"name": "spark34",
+				"type": "Spark",
+				"endpoint": "https://accessibilitytest5.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/spark34",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 8,
+				"memory": 56,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					" a = "
+				]
+			},
+			{
+				"cell_type": "code",
+				"source": [
+					"match animal:\r\n",
+					"    case 'cat':是非法\r\n",
+					"        print('meow')\r\n",
+					"    case 'dog':\r\n",
+					"        print('woof')\r\n",
+					"    case _:\r\n",
+					"       raise Exception(f'animal {animal} unknown')"
+				]
+			}
+		]
+	}
+}

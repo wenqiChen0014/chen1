@@ -1,0 +1,17 @@
+{
+	"name": "test",
+	"properties": {
+		"content": {
+			"query": "CREATE PROC [dbo].[Procedure]\n@param1 int,\n@param2 int\nAS\nBEGIN\nSELECT @param1, @param2\nEND\n\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqlpool",
+				"poolName": "sqlpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

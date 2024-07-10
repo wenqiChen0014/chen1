@@ -1,0 +1,17 @@
+{
+	"name": "Select1000",
+	"properties": {
+		"content": {
+			"query": "-- This is auto-generated code\nSELECT\n    TOP 100 *\nFROM\n    OPENROWSET(\n        BULK 'https://accessibilitytest.dfs.core.windows.net/data/parquet/parquet-table-285050/part-00000-2046786f-c908-4a19-b71d-725cba79d634-c000.snappy.parquet',\n        FORMAT = 'PARQUET'\n    ) AS [result]\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

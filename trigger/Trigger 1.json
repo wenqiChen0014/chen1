@@ -1,0 +1,27 @@
+{
+	"name": "Trigger 1",
+	"properties": {
+		"annotations": [
+			"test"
+		],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Pipelinetesthou",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2023-05-22T08:21:00Z",
+				"endTime": "2023-05-23T08:21:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

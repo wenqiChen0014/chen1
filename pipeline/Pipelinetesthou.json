@@ -1,0 +1,29 @@
+{
+	"name": "Pipelinetesthou",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 30
+				}
+			}
+		],
+		"parameters": {
+			"name1": {
+				"type": "string",
+				"defaultValue": "test"
+			},
+			"name2": {
+				"type": "string",
+				"defaultValue": "test2"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-07-06T02:04:33Z"
+	},
+	"type": "Microsoft.Synapse/workspaces/pipelines"
+}

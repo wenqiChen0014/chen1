@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 23",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [vendorID]\n,[tpepPickupDateTime]\n,[tpepDropoffDateTime]\n,[passengerCount]\n,[tripDistance]\n,[puLocationId]\n,[doLocationId]\n,[startLon]\n,[startLat]\n,[endLon]\n,[endLat]\n,[rateCodeId]\n,[storeAndFwdFlag]\n,[paymentType]\n,[fareAmount]\n,[extra]\n,[mtaTax]\n,[improvementSurcharge]\n,[tipAmount]\n,[tollsAmount]\n,[totalAmount]\n,[puYear]\n,[puMonth]\n FROM [default].[dbo].[nyc_taxi]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "default",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
