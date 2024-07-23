@@ -18,7 +18,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "df518013-4f14-4c75-8247-67d82cfead92"
+				"spark.autotune.trackingId": "db42da5d-56b4-482d-82f7-b12c3a7bb108"
 			}
 		},
 		"metadata": {
@@ -69,7 +69,7 @@
 					"    case 'dog':\n",
 					"        print('woof')sdadadasdasdfd\n",
 					"    case _:\n",
-					"       raise Exception(f'animal {animal"
+					"       raise Exception(f'animal {animal)}asdasd"
 				]
 			},
 			{
